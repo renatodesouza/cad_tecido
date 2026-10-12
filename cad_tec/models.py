@@ -1,5 +1,6 @@
 from django.db import models
 
+<<<<<<< HEAD
 class Representante(models.Model):
     nome = models.CharField(max_length=30, verbose_name='Nome')
     email = models.EmailField('E-mail')
@@ -71,3 +72,4 @@ class Tecido(models.Model):
 
     def __str__(self):
         return f'{self.nome} - Cor: {self.cor} ({self.quantidade_comprada} {self.unidade_medida})'
+
