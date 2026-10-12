@@ -1,6 +1,6 @@
 from django.db import models
 
-<<<<<<< HEAD
+
 class Representante(models.Model):
     nome = models.CharField(max_length=30, verbose_name='Nome')
     email = models.EmailField('E-mail')
